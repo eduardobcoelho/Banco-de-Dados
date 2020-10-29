@@ -31,7 +31,7 @@ O modelo relacional é composto, basicamente, por:
 ### Componentes de um Banco de Dados Relacional
 * **Tabela**: estrutura básica de armazenamento no SGBDR. Armazena todos os dados necessários sobre algo do mundo real, como clientes, perdidos ou produtos. Também chamada de Relação, um banco de dados relacional pode conter uma ou mais Tabelas.
 * **Tupla**: ou linha / registro, representa todos os dados requeridos por uma determinada ocorrência de entidade em particular. Por exemplo, os dados de um cliente específico. Cada linha em uma tabela deve ser identificada por uma chave primaŕia, de modo a não haver duplicação de registros.
-* **Coluna**: unicade que armazena um tipo específico de dado (valor) - ou não armazena nada, com valor nulo. Esta é uma coluna não-chave, significando que seu valor pode se repetir em outras linhas de tabela.
+* **Coluna**: unidade que armazena um tipo específico de dado (valor) - ou não armazena nada, com valor nulo. Esta é uma coluna não-chave, significando que seu valor pode se repetir em outras linhas de tabela.
 * **Relacionamento**: Associação entre as entidades (tabelas), conectadas por chaves primárias e chaves estrangeiras.
 * **Outros**: índices, SP, Triggers, etc.
 * **Chave Primária**: coluna (atributo) que identifica um registro de forma exclusiva na tabela. Por exemplo, o CPF de um cliente, contendo um valor que não se repete na relação.
@@ -43,7 +43,7 @@ O modelo relacional é composto, basicamente, por:
 * A Análise é extremamente importante para o sucesso do projeto do BD.
 
 ## Modelo Entidade-Relacionamento (MER)
-* MER, cria um diagrama entidade-relacionamento a partir das especificações do negócio ou narrativas do usuário. Prermite ilustrar as entidades em um negócio e também relacionamentos entre elas. COnstrímos o MER durante a fase de análise no ciclo de vida de desenvolvimento do sistema.
+* MER, cria um diagrama entidade-relacionamento a partir das especificações do negócio ou narrativas do usuário. Prermite ilustrar as entidades em um negócio e também relacionamentos entre elas. Construimos o MER durante a fase de análise no ciclo de vida de desenvolvimento do sistema.
 * Um MER separa a informação necessária ao negócio das atividades que são realizadas no negócio.
 
 ### Componentes do MER
